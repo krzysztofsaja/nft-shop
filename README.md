@@ -62,7 +62,8 @@ App was developed based on the following requirements + bonuses:
 * App supports Hardhat / Localhost blockchain
 
 
-##To Do
+## To Do
+
 Things that should be implemented but was outside the requirements and time limits
 
 * add more tests
