@@ -1,7 +1,7 @@
 import {ActionIcon, Group, Popover, Stack, Text, Title} from '@mantine/core';
 import {FC, useState} from 'react';
 import {IconWallet} from '@tabler/icons';
-import {truncateAddress} from '../../utils/utility';
+import {truncateAddress} from '../../helpers/utility';
 import {useAccount, useBalance, useNetwork} from 'wagmi';
 import EthFormatter from "../layout/eth-formatter";
 

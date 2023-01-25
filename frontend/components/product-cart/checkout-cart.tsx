@@ -9,10 +9,10 @@ import Joi from 'joi';
 
 import ConfirmationDialogContent from "./confirmation-dialog-content";
 import {ContractContext} from "../../state/contract.state";
-import {notify, notifyError, notifyTransaction, notifyTransactionUpdate} from "../../utils/notify";
+import {notify, notifyError, notifyTransaction, notifyTransactionUpdate} from "../../helpers/notify";
 import {BigNumber, ContractReceipt, ContractTransaction} from "ethers";
 import {useNetwork} from "wagmi";
-import {truncateAddress} from "../../utils/utility";
+import {truncateAddress} from "../../helpers/utility";
 
 function CheckoutButton() {
     const {shoppingState, reset, setLoading, getTotalPrice} = useContext(ShoppingContext);
