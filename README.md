@@ -3,6 +3,7 @@
 This is a POC project for NFT Shopp application (dApp) development.
 
 ![image](./docs/nft-shop-screenshot.png)
+![image](./docs/nft-shop-orders.png)
 
 #### Important links
 * [Published APP - NFT Shop on Vercel](https://nft-shop-krzysztofsaja.vercel.app)
@@ -52,7 +53,8 @@ App was developed based on the following requirements + bonuses:
 
 **Additional features** not mentioned in requirements were also implemented
 
-* UI Order page with table of stored orders in FireStore
+* Order page with table of stored orders in FireStore
+* Fetching from contract and showing total supply and minted token count
 * Theme switcher (Light / Dark mode)
 * Store Shopping App State in localstore via Mantine hooks
 * Notifications for different actions
@@ -67,15 +69,8 @@ App was developed based on the following requirements + bonuses:
 Things that should be implemented but was outside the requirements and time limits
 
 * add more tests
+* implement better Web3 wallet connection for other wallets (currently only Metamask is supported, I didn't want to add other dependencies for now)
+* implement better UX for pending transactions / backend communication (eg. on Orders page)
 * NFT image is hardcoded on the frontend - fetch proper NFT image with skeleton loader
 * NFT price is hardcoded on the frontend - add price to Contract and create proper calculations / requirements
-
-# Resources
-
-Things that may be helpful:
-
-- [Web3Modal demo](https://codesandbox.io/s/web3modal-demo-j43b10?file=/src/networks.js:0-695)
-- [MantineUI + NextJS](https://mantine.dev/theming/next/)
-- [Mantine Notifications](https://mantine.dev/others/notifications/)
-- [Mantine Themes](https://mantine.dev/theming/mantine-provider/)
-- [MetaMask & Hardhat](https://www.web3.university/article/how-to-build-a-react-dapp-with-hardhat-and-metamask)
+* mint more tokens (requirement was for 8) 
