@@ -1,0 +1,6 @@
+.vercel
+.idea
+frontend/.env
+contract/.env
+frontend/node_modules
+contract/node_modules
