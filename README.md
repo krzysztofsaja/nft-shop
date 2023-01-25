@@ -74,3 +74,4 @@ Things that should be implemented but was outside the requirements and time limi
 * NFT image is hardcoded on the frontend - fetch proper NFT image with skeleton loader
 * NFT price is hardcoded on the frontend - add price to Contract and create proper calculations / requirements
 * mint more tokens (requirement was for 8) 
+* fetch ETH / USD price from some service - now it's hardcoded on frontend
